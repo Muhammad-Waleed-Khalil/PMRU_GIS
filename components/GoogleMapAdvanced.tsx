@@ -1,11 +1,11 @@
 "use client"
 import { useEffect, useRef, useState } from "react"
 import { motion } from "framer-motion"
-import { useMapStore } from "@/context/mapStore"
-import { googleMapsLoader } from "@/lib/googleMapsLoader"
-import { MapSkeleton } from "@/components/MapSkeleton"
-import { FullscreenToggle } from "@/components/FullscreenToggle"
-import { calculateGeoJSONBounds, toGoogleMapsBounds } from "@/lib/utils"
+import { useMapStore } from "../context/mapStore"
+import { googleMapsLoader } from "../lib/googleMapsLoader"
+import { MapSkeleton } from "./MapSkeleton"
+import { FullscreenToggle } from "./FullscreenToggle"
+import { calculateGeoJSONBounds, toGoogleMapsBounds } from "../lib/utils"
 
 // Declare global google object
 declare global {
