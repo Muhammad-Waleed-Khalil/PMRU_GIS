@@ -3,11 +3,11 @@
 import { motion } from "framer-motion"
 import dynamic from "next/dynamic"
 import { useEffect } from "react"
-import { MapControls } from "@/components/MapControls"
-import { useMapStore } from "@/context/mapStore"
+import { MapControls } from "./MapControls"
+import { useMapStore } from "../context/mapStore"
 
 // Dynamically import the Leaflet map component
-const DynamicLeafletMap = dynamic(() => import("@/components/SimpleMapNew"), {
+const DynamicLeafletMap = dynamic(() => import("./SimpleMapNew"), {
   ssr: false,
   loading: () => (
     <div className="w-full h-full flex items-center justify-center bg-gray-100">

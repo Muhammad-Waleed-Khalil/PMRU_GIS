@@ -2,12 +2,12 @@
 
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronDown, ChevronRight, PanelLeftClose, PanelLeftOpen, Building2, Home } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { useMapStore } from "@/context/mapStore"
+import { Button } from "./ui/button"
+import { Badge } from "./ui/badge"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip"
+import { useMapStore } from "../context/mapStore"
 import { useState, useEffect } from "react"
-import { PatwarKhanaIcon } from "@/components/icons/PatwarKhanaIcon"
+import { PatwarKhanaIcon } from "./icons/PatwarKhanaIcon"
 
 export function Sidebar() {
   const { layers, toggleLayerWithZoom, isCollapsed, toggleSidebar, getActiveLayersCount } = useMapStore()

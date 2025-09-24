@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { useMapStore } from "@/context/mapStore"
+import { useMapStore } from "../context/mapStore"
 
 export function Header() {
   const { resetApplication } = useMapStore()

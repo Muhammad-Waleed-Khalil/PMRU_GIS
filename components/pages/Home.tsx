@@ -1,10 +1,10 @@
 "use client"
 
 import { useEffect } from "react"
-import { Header } from "@/components/Header"
-import { Sidebar } from "@/components/Sidebar"
-import { MapContainer } from "@/components/MapContainer"
-import { useMapStore } from "@/context/mapStore"
+import { Header } from "../Header"
+import { Sidebar } from "../Sidebar"
+import { MapContainer } from "../MapContainer"
+import { useMapStore } from "../../context/mapStore"
 
 export default function Home() {
   const { initializeLayers, isFullscreen, layers } = useMapStore()
