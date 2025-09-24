@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { useMapStore } from "@/context/mapStore"
-import { calculateGeoJSONBounds, toLeafletBounds } from "@/lib/utils"
+import { useMapStore } from "../context/mapStore"
+import { calculateGeoJSONBounds, toLeafletBounds } from "../lib/utils"
 import type { Map as LeafletMap } from "leaflet"
 
 // Utility functions for area conversion

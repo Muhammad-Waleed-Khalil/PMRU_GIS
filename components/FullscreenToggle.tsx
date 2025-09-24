@@ -1,9 +1,9 @@
 "use client"
 
 import { Maximize, Minimize } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { useMapStore } from "@/context/mapStore"
+import { Button } from "./ui/button"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip"
+import { useMapStore } from "../context/mapStore"
 
 interface FullscreenToggleProps {
   className?: string

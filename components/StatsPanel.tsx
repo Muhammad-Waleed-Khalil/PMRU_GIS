@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Activity, Layers, MapPin } from "lucide-react"
-import { useMapStore } from "@/context/mapStore"
+import { useMapStore } from "../context/mapStore"
 
 export function StatsPanel() {
   const { getActiveLayersCount } = useMapStore()

@@ -1,10 +1,10 @@
 "use client"
 
 import { Map, Satellite, RotateCcw, Plus, Minus } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { useMapStore } from "@/context/mapStore"
-import { FullscreenToggle } from "@/components/FullscreenToggle"
+import { Button } from "./ui/button"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip"
+import { useMapStore } from "../context/mapStore"
+import { FullscreenToggle } from "./FullscreenToggle"
 
 export function MapControls() {
   const { mapType, setMapType } = useMapStore()

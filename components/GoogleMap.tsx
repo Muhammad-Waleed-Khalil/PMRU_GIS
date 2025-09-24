@@ -2,8 +2,8 @@
 
 import { useEffect, useRef, useState } from "react"
 import { motion } from "framer-motion"
-import { useMapStore } from "@/context/mapStore"
-import { googleMapsLoader } from "@/lib/googleMapsLoader"
+import { useMapStore } from "../context/mapStore"
+import { googleMapsLoader } from "../lib/googleMapsLoader"
 
 // Declare global google object
 declare global {
