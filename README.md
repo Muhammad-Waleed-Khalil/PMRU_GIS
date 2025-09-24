@@ -26,7 +26,6 @@ A comprehensive Geographic Information System (GIS) dashboard for the Performanc
 
 - Node.js 18+ 
 - npm or yarn
-- Google Maps API key
 
 ## 🚀 Getting Started
 
@@ -45,15 +44,7 @@ npm install
 yarn install
 ```
 
-### 3. Environment Setup
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-```
-
-### 4. Run the development server
+### 3. Run the development server
 
 ```bash
 npm run dev
@@ -97,15 +88,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 1. Push your code to GitHub
 2. Connect your repository to Vercel
-3. Add your environment variables in Vercel dashboard
-4. Deploy automatically on every push
+3. Deploy automatically on every push
 
 ### Netlify
 
 1. Push your code to GitHub
 2. Connect your repository to Netlify
-3. Add your environment variables in Netlify dashboard
-4. Deploy automatically on every push
+3. Deploy automatically on every push
 
 ### Manual Deployment
 
@@ -118,14 +107,6 @@ npm start
 ```
 
 ## 🔧 Configuration
-
-### Google Maps Setup
-
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Enable Maps JavaScript API
-3. Create an API key
-4. Add your domain to the API key restrictions
-5. Add the API key to your environment variables
 
 ### Performance Optimization
 
